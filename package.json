@@ -1,11 +1,16 @@
 {
   "name": "lookas2001-noi-news-spider",
   "version": "1.0.0",
-  "description": "",
+  "description": "A tool made for fetching news from noi sites and pushing them to specific channel",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "iconv-lite": "^0.4.24",
+    "jsdom": "^13.0.0",
+    "urllib": "^2.31.3"
+  }
 }
